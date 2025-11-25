@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LineSprint' 25 - Line Follower Robot Race</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>LineSprint' 25</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#rules" class="nav-link">Rules</a>
+                <a href="#register" class="nav-link">Register</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">LineSprint' 25</h1>
+                <p class="hero-subtitle">Line Follower Robot Race</p>
+                <p class="hero-description">Simple line-following robot competition for Classes 6-8 at Lotus Valley International School</p>
+                
+                <div class="house-colors">
+                    <div class="house-color red">Red House</div>
+                    <div class="house-color yellow">Yellow House</div>
+                    <div class="house-color green">Green House</div>
+                    <div class="house-color blue">Blue House</div>
+                </div>
+                
+                <!-- Countdown Timer -->
+                <div class="countdown-container">
+                    <div class="countdown-item">
+                        <span id="days">00</span>
+                        <label>Days</label>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours">00</span>
+                        <label>Hours</label>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="minutes">00</span>
+                        <label>Minutes</label>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="seconds">00</span>
+                        <label>Seconds</label>
+                    </div>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="https://forms.microsoft.com/r/YourFormID" target="_blank" class="btn btn-primary">Nominate Team</a>
+                    <a href="#rules" class="btn btn-secondary">View Rules</a>
+                </div>
+            </div>
+            <div class="hero-animation">
+                <div class="robot-track">
+                    <div class="robot"></div>
+                    <div class="track-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About LineSprint' 25</h2>
+            <div class="about-content">
+                <p class="about-description">A simple robotics competition where students in Classes 6-8 build autonomous robots to follow a black line on a white surface. Teams of 1-3 members will compete to complete the track in the fastest time.</p>
+                
+                <div class="event-details">
+                    <div class="detail-item">
+                        <h3>Event Date</h3>
+                        <p>December 8, 2025</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Participants</h3>
+                        <p>Classes 6-8 only</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Team Size</h3>
+                        <p>2 members per team</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rules Section -->
+    <section id="rules" class="section">
+        <div class="container">
+            <h2 class="section-title">Competition Rules</h2>
+            <div class="rules-grid">
+                <div class="rule-card">
+                    <h3>Robot Specifications</h3>
+                    <ul>
+                        <li>Maximum size: 25cm × 25cm × 25cm</li>
+                        <li>Weight limit: 2kg</li>
+                        <li>Must be fully autonomous</li>
+                        <li>Basic sensors only for line detection</li>
+                    </ul>
+                </div>
+                <div class="rule-card">
+                    <h3>Track Details</h3>
+                    <ul>
+                        <li>White surface with black line</li>
+                        <li>Line width: 2-3cm</li>
+                        <li>Basic and sharp curves.</li>
+                    </ul>
+                </div>
+                <div class="rule-card">
+                    <h3>Scoring System</h3>
+                    <ul>
+                        <li>Time-based scoring only</li>
+                        <li>Penalty for going off-track</li>
+
+                        <li>Fastest time wins</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Nominate Your Team</h2>
+            <div class="register-content">
+                <p>Ready to participate? Click the button below to nominate your team through Microsoft Forms.</p>
+                <a href="https://forms.microsoft.com/r/YourFormID" target="_blank" class="btn btn-primary btn-large">
+                    <i class="fas fa-external-link-alt"></i>
+                    Nominate Team
+                </a>
+                <p class="register-note">Nominations close on December 1, 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LineSprint' 25</h3>
+                    <p>Simple robotics competition for Classes 6-8.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Lotus Valley International School<br>
+                    Noida Extension, UP<br>
+                    Email: madhavgamer251@gmail.com<br>
+                    Email: lakshyadeep.agrawal@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lotus Valley International School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
